@@ -1,6 +1,7 @@
 package Common.Constant;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Constant {
     public static WebDriver WEBDRIVER;

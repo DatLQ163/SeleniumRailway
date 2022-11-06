@@ -39,16 +39,16 @@ public class LoginPage extends GeneralPage{
         this.getBtnLogin().click();
         return new HomePage();
     }
-    @BeforeMethod
-    public void beforeMethod(){
-        System.out.println("Pre-condition");
-        System.setProperty("Webdriver.chrome.driver", Utilities.getProjectPath()+"\\Executables\\chromedriver.exe");
-        Constant.WEBDRIVER = new ChromeDriver();
-        Constant.WEBDRIVER.manage().window().maximize();
-    }
-    @AfterMethod
-    public void afterMethod(){
-        System.out.println("Post-condition");
-        Constant.WEBDRIVER.quit();
-    }
+//    @BeforeMethod
+//    public void beforeMethod(){
+//        System.out.println("Pre-condition");
+//        System.setProperty("Webdriver.chrome.driver", Utilities.getProjectPath()+"\\Executables\\chromedriver.exe");
+//        Constant.WEBDRIVER = new ChromeDriver();
+//        Constant.WEBDRIVER.manage().window().maximize();
+//    }
+//    @AfterMethod
+//    public void afterMethod(){
+//        System.out.println("Post-condition");
+//        Constant.WEBDRIVER.quit();
+//    }
 }
