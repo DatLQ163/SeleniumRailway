@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29c83497-6530-448c-a613-bcb5fd4b716b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/LoginTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="29c83497-6530-448c-a613-bcb5fd4b716b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667784904747</updated>
-      <workItem from="1667784907164" duration="13096000" />
+      <workItem from="1667784907164" duration="13441000" />
     </task>
     <servers />
   </component>
