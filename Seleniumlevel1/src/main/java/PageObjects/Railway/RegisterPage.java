@@ -14,6 +14,7 @@ public class RegisterPage {
     private final By txtConfirmPassword = By.xpath("//input[@id='confirmPassword']");
     private final By txtPassport = By.xpath("//input[@id='pid']");
     private final By lblErrormessage = By.xpath("//label[@class='validation-error']");
+    private final By btnRegister = By.xpath("//input[@type='submit']");
 
     // Elements
     private WebElement getTxtEmail(){
@@ -36,9 +37,15 @@ public class RegisterPage {
 
         return Constant.WEBDRIVER.findElement(lblErrormessage);
     }
+    private WebElement getBtnRegister(){
+        return Constant.WEBDRIVER.findElement(btnRegister);
+    }
 
     //Methods
     public void register(String email,String password,String confirmpassword ,String passport){
-
+        this.getTxtEmail().sendKeys();
+        this.getTxtPassword().sendKeys();
+        this.getTxtConfirmPassword().sendKeys();
+        this.getBtnRegister().click();
     }
 }
