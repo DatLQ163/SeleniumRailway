@@ -32,23 +32,10 @@ public class LoginPage extends GeneralPage{
         return Constant.WEBDRIVER.findElement(lblErrormessage);
     }
 
-    // Methods
-    public HomePage login(String username, String password){
+    // Methods dung void
+    public void login(String username, String password){
         this.getTxtUsername().sendKeys(username);
         this.getTxtPassword().sendKeys(password);
         this.getBtnLogin().click();
-        return new HomePage();
     }
-//    @BeforeMethod
-//    public void beforeMethod(){
-//        System.out.println("Pre-condition");
-//        System.setProperty("Webdriver.chrome.driver", Utilities.getProjectPath()+"\\Executables\\chromedriver.exe");
-//        Constant.WEBDRIVER = new ChromeDriver();
-//        Constant.WEBDRIVER.manage().window().maximize();
-//    }
-//    @AfterMethod
-//    public void afterMethod(){
-//        System.out.println("Post-condition");
-//        Constant.WEBDRIVER.quit();
-//    }
 }
