@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29c83497-6530-448c-a613-bcb5fd4b716b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Common/Constant/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Common/Constant/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Common/Constant/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Common/Constant/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Testcases/Railway/RegisterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Testcases/Railway/RegisterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -46,7 +54,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.LoginTest.TC01">
+  <component name="RunManager" selected="TestNG.RegisterTest.TC03">
     <configuration name="LoginTest.TC01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seleniumlevel1" />
       <extension name="coverage">
@@ -83,10 +91,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegisterTest.TC03" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Seleniumlevel1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.Railway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases.Railway" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.Railway.RegisterTest" />
+      <option name="METHOD_NAME" value="TC03" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.TC02" />
+        <item itemvalue="TestNG.RegisterTest.TC03" />
         <item itemvalue="TestNG.LoginTest.TC01" />
+        <item itemvalue="TestNG.LoginTest.TC02" />
         <item itemvalue="TestNG.LoginTest.TC01" />
         <item itemvalue="TestNG.LoginTest.TC02" />
       </list>
