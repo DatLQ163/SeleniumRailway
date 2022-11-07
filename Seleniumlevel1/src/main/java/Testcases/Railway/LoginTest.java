@@ -1,17 +1,9 @@
 package Testcases.Railway;
 
-import Common.Common.Utilities;
 import Common.Constant.Constant;
-import PageObjects.Railway.GeneralPage;
 import PageObjects.Railway.HomePage;
 import PageObjects.Railway.LoginPage;
-import PageObjects.Railway.RegisterPage;
-import com.google.gson.internal.bind.util.ISO8601Utils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -34,7 +26,6 @@ public class LoginTest {
     }
     HomePage homePage = new HomePage();
     LoginPage loginPage = new LoginPage();
-    RegisterPage registerPage = new RegisterPage();
     @Test
     public void TC01(){
         System.out.println("TC-01 - User can login with valid username and password");
@@ -53,18 +44,6 @@ public class LoginTest {
         homePage.open();
         homePage.gotoLoginPage();
         loginPage.login(Constant.INVALIDUSERNAME, Constant.PASSWORD);
-
-        String actualMsg = loginPage.getWelcomeMessage();
-        String expectedMsg = "Welcome guest!";
-
-        Assert.assertEquals(actualMsg, expectedMsg, "Welcome message  is not displayed");
-    }
-    @Test
-    public  void TC03(){
-        System.out.println("TC-03 - User can register with valid username");
-        homePage.open();
-        homePage.gotoRegisterPage();
-        registerPage.register(Constant.REGISTERUSERNAME, Constant.PASSWORD, Constant.CONFIRMPASSWORD, Constant.PASSPORTNUMBER);
 
         String actualMsg = loginPage.getWelcomeMessage();
         String expectedMsg = "Welcome guest!";

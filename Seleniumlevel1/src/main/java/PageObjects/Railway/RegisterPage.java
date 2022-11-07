@@ -1,13 +1,12 @@
 package PageObjects.Railway;
 
+import Common.Common.Utilities;
 import Common.Constant.Constant;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-public class RegisterPage {
-    WebDriver driver = new ChromeDriver();
+public class RegisterPage extends GeneralPage{
     // Locators
     private final By txtEmail = By.xpath("//input[@id='email']");
     private final By txtPassword = By.xpath("//input[@id='password']");
@@ -15,6 +14,8 @@ public class RegisterPage {
     private final By txtPassport = By.xpath("//input[@id='pid']");
     private final By lblErrormessage = By.xpath("//label[@class='validation-error']");
     private final By btnRegister = By.xpath("//input[@type='submit']");
+    private final By link = By.xpath("//a[.='Web hosting by Somee.com']");
+
 
     // Elements
     private WebElement getTxtEmail(){
@@ -23,7 +24,7 @@ public class RegisterPage {
     }
     private WebElement getTxtPassword(){
 
-        return Constant.WEBDRIVER.findElement(txtPassport);
+        return Constant.WEBDRIVER.findElement(txtPassword);
     }
     private WebElement getTxtConfirmPassword(){
 
@@ -37,15 +38,21 @@ public class RegisterPage {
 
         return Constant.WEBDRIVER.findElement(lblErrormessage);
     }
+
     private WebElement getBtnRegister(){
         return Constant.WEBDRIVER.findElement(btnRegister);
+    }
+    private WebElement getLink(){
+        return Constant.WEBDRIVER.findElement(link);
     }
 
     //Methods
     public void register(String email,String password,String confirmpassword ,String passport){
-        this.getTxtEmail().sendKeys();
-        this.getTxtPassword().sendKeys();
-        this.getTxtConfirmPassword().sendKeys();
+        Utilities.scrollToFindElement(getLink());
+        this.getTxtEmail().sendKeys(email);
+        this.getTxtPassword().sendKeys(password);
+        this.getTxtConfirmPassword().sendKeys(confirmpassword);
+        this.getTxtPassport().sendKeys(passport);
         this.getBtnRegister().click();
     }
 }

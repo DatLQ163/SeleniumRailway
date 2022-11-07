@@ -1,0 +1,34 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_07_11_2022_16_08_[Changes]" date="1667812103841" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_11_2022_16_08_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 07/11/2022 16:08 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Seleniumlevel1/target/classes/PageObjects/Railway/GeneralPage.class" />
+    <option name="AFTER_PATH" value="Seleniumlevel1/target/classes/PageObjects/Railway/GeneralPage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_11_2022_16_08_[Changes]/GeneralPage.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Seleniumlevel1/target/classes/Testcases/Railway/RegisterTest.class" />
+    <option name="AFTER_PATH" value="Seleniumlevel1/target/classes/Testcases/Railway/RegisterTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_11_2022_16_08_[Changes]/RegisterTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Seleniumlevel1/target/classes/PageObjects/Railway/RegisterPage.class" />
+    <option name="AFTER_PATH" value="Seleniumlevel1/target/classes/PageObjects/Railway/RegisterPage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_11_2022_16_08_[Changes]/RegisterPage.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Seleniumlevel1/target/classes/Common/Common/Utilities.class" />
+    <option name="AFTER_PATH" value="Seleniumlevel1/target/classes/Common/Common/Utilities.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_11_2022_16_08_[Changes]/Utilities.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Seleniumlevel1/target/classes/Common/Constant/Constant.class" />
+    <option name="AFTER_PATH" value="Seleniumlevel1/target/classes/Common/Constant/Constant.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_11_2022_16_08_[Changes]/Constant.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Seleniumlevel1/target/classes/Testcases/Railway/LoginTest.class" />
+    <option name="AFTER_PATH" value="Seleniumlevel1/target/classes/Testcases/Railway/LoginTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_11_2022_16_08_[Changes]/LoginTest.class" />
+  </binary>
+</changelist>
