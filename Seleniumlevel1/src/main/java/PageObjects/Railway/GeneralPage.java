@@ -8,8 +8,10 @@ public class GeneralPage {
     // Locators
     private final By tabLogin = By.xpath("//div[@id='menu']//a[@href ='/Account/Login.cshtml']");
     private final By tabLogout = By.xpath("//div[@id='menu']//a[@href ='/Account/Logout']");
-    private final By lblWelcomeMessage = By.xpath("//div[@class ='account']//strong");
     private final By tabRegister = By.xpath("//div[@id='menu']//a[@href ='/Account/Register.cshtml']");
+    private final By tabBookTicket = By.xpath("//div[@id='menu']//a[@href ='/Page/BookTicketPage.cshtml']");
+    private final By tabMyTicket = By.xpath("//div[@id='menu']//a[@href ='/Page/ManageTicket.cshtml']");
+    private final By lblWelcomeMessage = By.xpath("//div[@class ='account']//strong");
     private final By msgRegisterSuccessfull = By.xpath("//p[.='Registration Confirmed! You can now log in to the site.']");
     //Elements
     protected WebElement getTabLogin(){
@@ -22,12 +24,12 @@ public class GeneralPage {
     protected WebElement getLblWelcomeMessage(){
         return Constant.WEBDRIVER.findElement(lblWelcomeMessage);
     }
-    protected WebElement getLMsgRegisterSuccessfull(){
-        return Constant.WEBDRIVER.findElement(msgRegisterSuccessfull);
-    }
     protected WebElement getTabRegister(){
         return Constant.WEBDRIVER.findElement(tabRegister);
     }
+    protected WebElement getTabBookTicket(){ return Constant.WEBDRIVER.findElement(tabBookTicket);}
+    protected WebElement getTabMyTicket(){ return Constant.WEBDRIVER.findElement(tabMyTicket);}
+
 
     //Methods
     public String getWelcomeMessage(){
@@ -43,7 +45,12 @@ public class GeneralPage {
         this.getTabRegister().click();
         return new RegisterPage();
     }
-    public String getMsgRegisterSuccessfull(){
-        return Constant.WEBDRIVER.findElement(msgRegisterSuccessfull).getText();
+    public BookTicketPage gotoBookTicketPage(){
+        this.getTabBookTicket().click();
+        return new BookTicketPage();
+    }
+    public MyTicketPage gotoMyTicketPage(){
+        this.getTabMyTicket().click();
+        return new MyTicketPage();
     }
 }

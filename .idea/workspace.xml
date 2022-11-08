@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29c83497-6530-448c-a613-bcb5fd4b716b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/BookTicketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/MyTicketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Common/Common/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Common/Common/Utilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Common/Constant/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Common/Constant/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/BookTicketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/BookTicketPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/GeneralPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/GeneralPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/MyTicketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/MyTicketPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Common/Common/Utilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Common/Common/Utilities.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Common/Constant/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Common/Constant/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/BookTicketPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/BookTicketPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/GeneralPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/GeneralPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/RegisterPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Testcases/Railway/RegisterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Testcases/Railway/RegisterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,16 +59,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SATTDN22.03.01/tai lieu/github/baitap/SeleniumRailway&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/SATTDN22.03.01/tai lieu/github/baitap/SeleniumRailway",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.RegisterTest.TC03">
+}]]></component>
+  <component name="RunManager" selected="TestNG.BookTicketTest.TC04">
+    <configuration name="BookTicketTest.TC04" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Seleniumlevel1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.Railway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases.Railway" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.Railway.BookTicketTest" />
+      <option name="METHOD_NAME" value="TC04" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.TC01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seleniumlevel1" />
       <extension name="coverage">
@@ -73,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.TC02" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyTicketTest.TC04" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seleniumlevel1" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +115,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Testcases.Railway" />
-      <option name="MAIN_CLASS_NAME" value="Testcases.Railway.LoginTest" />
-      <option name="METHOD_NAME" value="TC02" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.Railway.MyTicketTest" />
+      <option name="METHOD_NAME" value="TC04" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTicketTest.TC05" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Seleniumlevel1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.Railway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases.Railway" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.Railway.MyTicketTest" />
+      <option name="METHOD_NAME" value="TC05" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BookTicketTest.TC04" />
+        <item itemvalue="TestNG.LoginTest.TC01" />
+        <item itemvalue="TestNG.MyTicketTest.TC05" />
+        <item itemvalue="TestNG.MyTicketTest.TC04" />
         <item itemvalue="TestNG.RegisterTest.TC03" />
-        <item itemvalue="TestNG.LoginTest.TC01" />
-        <item itemvalue="TestNG.LoginTest.TC02" />
-        <item itemvalue="TestNG.LoginTest.TC01" />
-        <item itemvalue="TestNG.LoginTest.TC02" />
       </list>
     </recent_temporary>
   </component>

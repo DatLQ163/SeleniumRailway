@@ -14,8 +14,7 @@ public class RegisterPage extends GeneralPage{
     private final By txtPassport = By.xpath("//input[@id='pid']");
     private final By lblErrormessage = By.xpath("//label[@class='validation-error']");
     private final By btnRegister = By.xpath("//input[@type='submit']");
-    private final By link = By.xpath("//a[.='Web hosting by Somee.com']");
-
+    private final By msgRegisterSuccessfully = By.xpath("//div[@id='content']/p");
 
     // Elements
     private WebElement getTxtEmail(){
@@ -34,6 +33,10 @@ public class RegisterPage extends GeneralPage{
 
         return Constant.WEBDRIVER.findElement(txtPassport);
     }
+    private WebElement getMsgRegisterSuccessfully(){
+
+        return Constant.WEBDRIVER.findElement(msgRegisterSuccessfully);
+    }
     private WebElement getLblErrormessage(){
 
         return Constant.WEBDRIVER.findElement(lblErrormessage);
@@ -42,17 +45,17 @@ public class RegisterPage extends GeneralPage{
     private WebElement getBtnRegister(){
         return Constant.WEBDRIVER.findElement(btnRegister);
     }
-    private WebElement getLink(){
-        return Constant.WEBDRIVER.findElement(link);
-    }
 
     //Methods
     public void register(String email,String password,String confirmpassword ,String passport){
-        Utilities.scrollToFindElement(getLink());
+        Utilities.scrollToFindElement();
         this.getTxtEmail().sendKeys(email);
         this.getTxtPassword().sendKeys(password);
         this.getTxtConfirmPassword().sendKeys(confirmpassword);
         this.getTxtPassport().sendKeys(passport);
         this.getBtnRegister().click();
+    }
+    public String getMsgRegister(){
+        return this.getMsgRegisterSuccessfully().getText();
     }
 }
