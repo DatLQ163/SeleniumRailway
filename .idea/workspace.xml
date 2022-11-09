@@ -5,38 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29c83497-6530-448c-a613-bcb5fd4b716b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/Seleniumlevel1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/Seleniumlevel1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Common/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Common/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Common/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Common/Utilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/BookTicketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/BookTicketPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/ChangePasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/ChangePasswordPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/GeneralPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/GeneralPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/MyTicketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/MyTicketPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/TimetablePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/PageObjects/Railway/TimetablePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/BookTicketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/BookTicketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/GeneralTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/GeneralTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/MyTicketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/MyTicketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/main/java/Testcases/Railway/RegisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/src/test/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Common/Common/Utilities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Common/Constant/Constant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/BookTicketPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/BookTicketPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/ChangePasswordPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/ChangePasswordPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/GeneralPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/GeneralPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/MyTicketPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/MyTicketPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/RegisterPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/TimetablePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/PageObjects/Railway/TimetablePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Testcases/Railway/BookTicketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Testcases/Railway/BookTicketTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Testcases/Railway/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Testcases/Railway/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Testcases/Railway/MyTicketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Testcases/Railway/MyTicketTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Testcases/Railway/RegisterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/target/classes/Testcases/Railway/RegisterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleniumlevel1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Seleniumlevel1/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667784904747</updated>
       <workItem from="1667784907164" duration="13096000" />
-      <workItem from="1667956506079" duration="8870000" />
+      <workItem from="1667956506079" duration="9095000" />
     </task>
     <servers />
   </component>
