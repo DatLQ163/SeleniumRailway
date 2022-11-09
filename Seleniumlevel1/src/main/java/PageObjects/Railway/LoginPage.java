@@ -1,12 +1,8 @@
 package PageObjects.Railway;
 
-import Common.Common.Utilities;
-import Common.Constant.Constant;
+import Common.Constant;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 
 public class LoginPage extends GeneralPage{
     // Locators

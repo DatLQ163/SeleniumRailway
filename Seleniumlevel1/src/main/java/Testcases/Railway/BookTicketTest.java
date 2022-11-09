@@ -1,29 +1,12 @@
 package Testcases.Railway;
 
-import Common.Common.Utilities;
-import Common.Constant.Constant;
+import Common.Constant;
 import PageObjects.Railway.BookTicketPage;
 import PageObjects.Railway.HomePage;
 import PageObjects.Railway.LoginPage;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class BookTicketTest {
-    @BeforeMethod
-    public void beforeMethod(){
-        System.out.println("Pre-condition");
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\SATTDN22.03.01\\INTELIJ\\chrome\\chromedriver.exe");
-        Constant.WEBDRIVER = new ChromeDriver();
-        Constant.WEBDRIVER.manage().window().maximize();
-    }
-    @AfterMethod
-    public void afterMethod(){
-        System.out.println("Post-condition");
-        //Constant.WEBDRIVER.quit();
-    }
+public class BookTicketTest extends GeneralTest{
     HomePage homePage = new HomePage();
     BookTicketPage bookTicketPage = new BookTicketPage();
     LoginPage loginPage = new LoginPage();
@@ -39,6 +22,6 @@ public class BookTicketTest {
 //        String actualMsg = bookTicketPage.getMsgBook();
 //        String expectedMsg = "Ticket Booked Successfully!";
 //        Assert.assertEquals(actualMsg, expectedMsg, "Welcome message  is not displayed");
-        bookTicketPage.verifyBooking();
+//        bookTicketPage.verifyBooking();
     }
 }

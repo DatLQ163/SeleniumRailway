@@ -1,13 +1,10 @@
 package PageObjects.Railway;
 
-import Common.Common.Utilities;
-import Common.Constant.Constant;
+import Common.Utilities;
+import Common.Constant;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
-
-import java.util.Arrays;
 
 public class BookTicketPage {
     // Locators
@@ -25,89 +22,105 @@ public class BookTicketPage {
     private final By infoTicketAmount = By.xpath("//table//td[count(//th[.='Amount']/preceding-sibling::th)+1]");
 
     // Elements
-    private WebElement getSelDepartDate(){
+    private WebElement getSelDepartDate() {
 
         return Constant.WEBDRIVER.findElement(selDepartDate);
     }
-    private WebElement getSelDepartFrom(){
+
+    private WebElement getSelDepartFrom() {
 
         return Constant.WEBDRIVER.findElement(selDepartFrom);
     }
-    private WebElement getSelArriveAt(){
+
+    private WebElement getSelArriveAt() {
 
         return Constant.WEBDRIVER.findElement(selArriveAt);
     }
-    private WebElement getMsgBookSuccessfully(){
+
+    private WebElement getMsgBookSuccessfully() {
 
         return Constant.WEBDRIVER.findElement(msgBookSuccessfully);
     }
-    private WebElement getSelSeatType(){
+
+    private WebElement getSelSeatType() {
         return Constant.WEBDRIVER.findElement(selSeatType);
     }
-    private WebElement getSelTicketAmount(){
+
+    private WebElement getSelTicketAmount() {
         return Constant.WEBDRIVER.findElement(selTicketAmount);
     }
-    private WebElement getBtnBookTicket(){
+
+    private WebElement getBtnBookTicket() {
         return Constant.WEBDRIVER.findElement(btnBookTicket);
     }
-    private WebElement getInfoTicketDepart(){
+
+    private WebElement getInfoTicketDepart() {
         return Constant.WEBDRIVER.findElement(infoTicketDepart);
     }
-    private WebElement getInfoTicketArrive(){
+
+    private WebElement getInfoTicketArrive() {
         return Constant.WEBDRIVER.findElement(infoTicketArrive);
     }
-    private WebElement getInfoTicketSeatType(){
+
+    private WebElement getInfoTicketSeatType() {
         return Constant.WEBDRIVER.findElement(infoTicketSeatType);
     }
-    private WebElement getInfoTicketDepartDate(){
+
+    private WebElement getInfoTicketDepartDate() {
         return Constant.WEBDRIVER.findElement(infoTicketDepartDate);
     }
-    private WebElement getInfoTicketAmount(){
+
+    private WebElement getInfoTicketAmount() {
         return Constant.WEBDRIVER.findElement(infoTicketAmount);
     }
 
     // Methods
 
-    public void bookTicket(){
+    public void bookTicket() {
+
+        Utilities.scrollToFindElement();
+        String[] optionBooking = new String[5];
         Select dropDepartDate = new Select(getSelDepartDate());
         Select dropDepartFrom = new Select(getSelDepartFrom());
         Select dropArriveAt = new Select(getSelArriveAt());
         Select dropSeatType = new Select(getSelSeatType());
         Select dropTicketAmount = new Select(getSelTicketAmount());
-        Utilities.scrollToFindElement();
         dropDepartDate.selectByIndex(3);
         dropDepartFrom.selectByIndex(3);
         dropArriveAt.selectByIndex(3);
         dropSeatType.selectByIndex(3);
-        dropTicketAmount.selectByIndex(3);
+        dropTicketAmount.selectByIndex(1);
         this.getBtnBookTicket().click();
     }
-    public String getMsgBook(){
+
+    public String getMsgBook() {
         return this.getMsgBookSuccessfully().getText();
     }
-    public void verifyBooking(){
-        Select dropDepartDate = new Select(getSelDepartDate());
-        Select dropDepartFrom = new Select(getSelDepartFrom());
-        Select dropArriveAt = new Select(getSelArriveAt());
-        Select dropSeatType = new Select(getSelSeatType());
-        Select dropTicketAmount = new Select(getSelTicketAmount());
-        String[] optionTicket = new String[5];
-        optionTicket[0] = getInfoTicketDepart().getText();
-        optionTicket[1] = getInfoTicketArrive().getText();
-        optionTicket[2] = getInfoTicketSeatType().getText();
-        optionTicket[3] = getInfoTicketAmount().getText();
-        optionTicket[4] = getInfoTicketDepartDate().getText();
 
-        String[] optionBooking = new String[5];
-        optionBooking[0] = dropDepartFrom.getOptions().get(3).getText();
-        optionBooking[1] = dropArriveAt.getOptions().get(3).getText();
-        optionBooking[2] = dropSeatType.getOptions().get(3).getText();
-        optionBooking[3] = dropTicketAmount.getOptions().get(3).getText();
-        optionBooking[4] = dropDepartDate.getOptions().get(3).getText();
+    public void verifyBooking() {
+//        System.out.println(dropDepartFrom.getOptions().get(3).getText());
 
-        for (int i =0; i <5;i++){
-            Assert.assertEquals(optionBooking[i],optionTicket[i]);
-        }
+//        Select dropDepartDate = new Select(getSelDepartDate());
+//        Select dropDepartFrom = new Select(getSelDepartFrom());
+//        Select dropArriveAt = new Select(getSelArriveAt());
+//        Select dropSeatType = new Select(getSelSeatType());
+//        Select dropTicketAmount = new Select(getSelTicketAmount());
+//        String[] optionBooking = new String[5];
+//        optionBooking[0] = dropDepartFrom.getOptions().get(3).getText();
+//        optionBooking[1] = dropArriveAt.getOptions().get(3).getText();
+//        optionBooking[2] = dropSeatType.getOptions().get(3).getText();
+//        optionBooking[3] = dropTicketAmount.getOptions().get(3).getText();
+//        optionBooking[4] = dropDepartDate.getOptions().get(3).getText();
+//        String[] optionTicket = new String[5];
+//        optionTicket[0] = getInfoTicketDepart().getText();
+//        optionTicket[1] = getInfoTicketArrive().getText();
+//        optionTicket[2] = getInfoTicketSeatType().getText();
+//        optionTicket[3] = getInfoTicketAmount().getText();
+//        optionTicket[4] = getInfoTicketDepartDate().getText();
+//
+//        System.out.println(optionTicket[0]);
+//        for (int i =0; i <5;i++){
+//            Assert.assertEquals(optionBooking[i],optionTicket[i]);
+//        }
     }
 }
-

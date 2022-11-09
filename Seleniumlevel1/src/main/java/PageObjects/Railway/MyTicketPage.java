@@ -1,13 +1,10 @@
 package PageObjects.Railway;
 
-import Common.Common.Utilities;
-import Common.Constant.Constant;
+import Common.Utilities;
+import Common.Constant;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-
-import java.util.Date;
-import java.util.List;
 
 public class MyTicketPage {
     // Locators
@@ -65,7 +62,4 @@ public class MyTicketPage {
         filterValue[2] = date;
         filterValue[3] = dropFilterStatus.getOptions().get(2).getText();
     }
-
-
-
 }

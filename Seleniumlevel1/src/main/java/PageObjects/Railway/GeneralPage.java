@@ -1,6 +1,6 @@
 package PageObjects.Railway;
 
-import Common.Constant.Constant;
+import Common.Constant;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -36,21 +36,17 @@ public class GeneralPage {
         return this.getLblWelcomeMessage().getText();
     }
 
-    public LoginPage gotoLoginPage(){
+    public void gotoLoginPage(){
         this.getTabLogin().click();
-        return new LoginPage();
 
     }
-    public RegisterPage gotoRegisterPage(){
+    public void gotoRegisterPage(){
         this.getTabRegister().click();
-        return new RegisterPage();
     }
-    public BookTicketPage gotoBookTicketPage(){
+    public void gotoBookTicketPage(){
         this.getTabBookTicket().click();
-        return new BookTicketPage();
     }
-    public MyTicketPage gotoMyTicketPage(){
+    public void gotoMyTicketPage(){
         this.getTabMyTicket().click();
-        return new MyTicketPage();
     }
 }
